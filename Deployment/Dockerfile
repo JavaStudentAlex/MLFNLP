@@ -53,4 +53,4 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 RUN conda install pip setuptools wheel -c conda-forge
 COPY ${REQUIREMENTS_FILE_PATH} /tmp/requirements.txt
 RUN pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu118 -r /tmp/requirements.txt
-RUN conda clean -y -a
+RUN conda clean -yf -a

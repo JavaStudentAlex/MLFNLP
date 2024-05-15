@@ -1,34 +1,33 @@
 # basics
 tqdm
-numpy
-pandas
-scipy
-scikit-learn
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.12.0
+scikit-learn==1.4.2
+
 
 # plotting
-matplotlib
-plotly
-seaborn
-
-# images
-opencv-python
-Pillow
+matplotlib==3.8.4
+plotly==5.22.0
+seaborn==0.13.2
 
 # jupyter
-jupyterlab
-ipywidgets
-jupyterlab-widgets
-notebook
+jupyterlab==4.1.8
+ipywidgets==8.1.2
+jupyterlab-widgets==3.0.10
+notebook==7.1.3
 
 # ML frameworks
-keras
-torch
-torchvision
-torchaudio
-tensorboard
-torchinfo
-torchmetrics
-transformers
-accelerate
-bitsandbytes
-word2vec
+keras==3.3.3
+torch==2.3.0+cu118
+torchvision==0.18.0+cu118
+torchaudio==2.3.0+cu118
+tensorboard==2.16.2
+torchinfo==1.8.0
+torchmetrics==1.4.0.post0
+transformers==4.40.2
+accelerate==0.30.1
+bitsandbytes==0.43.1
+word2vec==0.11.1
+gensim==4.3.2
+nltk==3.8.1
